@@ -14,3 +14,11 @@ window.addEventListener('scroll', function(){
     var header = document.querySelector('nav');
     header.classList.toggle('sticky', window.scrollY > 0)
 })
+
+function hesabla(){
+    var a=document.getElementById('ceki').value;
+    var b=3.50;
+    var c=a*b;
+
+    document.getElementById('cem').innerHTML = "Cəmi: "+ c +'$';
+}
